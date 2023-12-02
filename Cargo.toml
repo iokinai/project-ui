@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    'lowlevel/project-ui_windows',
+    'project-ui_test'
+]
