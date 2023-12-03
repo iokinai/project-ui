@@ -1,4 +1,4 @@
-use crate::models::types::{HINSTANCE, HICON, HBRUSH, HWND, UINT, LPARAM, WPARAM, LPCSTR};
+use crate::models::types::{HINSTANCE, HICON, HBRUSH, LPCSTR};
 
 use super::types::WNDPROC;
 

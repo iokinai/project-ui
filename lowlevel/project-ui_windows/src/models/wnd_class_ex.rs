@@ -1,6 +1,6 @@
-use crate::models::types::{HINSTANCE, HICON, HBRUSH, HWND, UINT, LPARAM, WPARAM, LPCSTR};
+use crate::models::types::{HINSTANCE, HICON, HBRUSH, UINT, LPCSTR};
 
-use super::types::{WNDPROC, HCURSOR, LPCWSTR};
+use super::types::{WNDPROC, HCURSOR};
 
 /// Represents `WNDCLASSEX` structure
 /// See [this](https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa) for more information

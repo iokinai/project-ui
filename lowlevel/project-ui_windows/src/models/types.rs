@@ -53,3 +53,21 @@ pub type WNDPROC = fn(HWND, UINT, WPARAM, LPARAM);
 /// Represents Windows' `ATOM`
 /// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
 pub type ATOM = u16;
+/// Represents Windows' `BYTE`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type BYTE = u8;
+/// Represents Windows' `WORD`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type WORD = u16;
+/// Represents Windows' `DWORD`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type DWORD = u32;
+/// Represents Windows' `QWORD`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type QWORD = u64;
+/// Represents Windows' `HMENU`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type HMENU = HANDLE;
+/// Represents Windows' `LPVOID`
+/// See [this](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types) for more information
+pub type LPVOID = *const raw::c_void;
